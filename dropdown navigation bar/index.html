@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down Navigation Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="images/logo.svg" alt="logo" class="logomain">
+        <div id="lists" class="listinactive">
+            <img src="images/icon-close-menu.svg" alt="icon-close-menu" class="closemenu">
+
+            <ul class="dropdown-list">
+                <!-- feautures  -->
+
+                <div class="feautures-wrapper">
+                    <div class="features">
+                        <li><a href="#">Features<img src="images/icon-arrow-down.svg" class="featuresclick "
+                                    alt="icon-arrow-down">
+                                <img src="images/icon-arrow-up.svg" alt="icon-arrow-up" class="arrowup"></a></li>
+                    </div>
+                    <div class="active-features" class="">
+                        <ul>
+                            <li><a href="#">
+                                    <span class="logotodo">
+                                        <img src="images/icon-todo.svg" alt="">
+                                    </span> Todo list
+                                </a> </li>
+                            <li><a href="#"><span class="logocalendar">
+                                        <img src="images/icon-calendar.svg" alt="">
+                                    </span> Calender</a> </li>
+                            <li><a href="#"><span class="logoreminders">
+                                        <img src="images/icon-reminders.svg" alt="">
+                                    </span> Reminders</a> </li>
+                            <li><a href="#"><span class="logoplanning">
+                                        <img src="images/icon-planning.svg" alt="">
+                                    </span> Planning</a> </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+                <!--           Company           -->
+                <div class="company-wrapper">
+                    <li><a href="#">Company<img src="images/icon-arrow-down.svg" alt="icon-arrow-down"
+                                class="clickcompany">
+                            <img src="images/icon-arrow-up.svg" alt="icon-arrow-up" class="arrowup1"></a></li>
+                    <div class="active-company " class="">
+                        <ul>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <li><a href="#">Careeers</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <ul class="login-info">
+                <li><a href="#">Login</a></li>
+                <li class="register"><a href="#">Register</a></li>
+            </ul>
+        </div>
+        <!-- <button class="menu"> -->
+            <img src="images/icon-menu.svg" alt="icon-menu" class="menu" >
+        <!-- </button> -->
+    </header>
+
+    <!--                      main         -->
+    <div class="main-wrapper">
+        <main class="main">
+            <section class="details-container">
+                <h1 id="make" >Make</h1>
+                <h2>remote work</h2>
+                <p> Get your team in sync, no matter your location. Streamline processes,create team rituals, and watch
+                    productivity soar.
+                </p>
+                <button class="btn">Learn more</button>
+                <div class="company-logos-wrapper">
+                    <img src="images/client-databiz.svg" alt="client-databiz" class="logoscompany">
+                    <img src="images/client-audiophile.svg" alt="client-audiophile" class="logoscompany">
+                    <img src="images/client-meet.svg" alt="client-meet"class="logoscompany">
+                    <img src="images/client-maker.svg" alt="client-maker"class="logoscompany">
+                </div>
+            </section>
+
+            <img src="images/image-hero-desktop.png" alt="image-hero-desktop" class="img">
+
+        </main>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
